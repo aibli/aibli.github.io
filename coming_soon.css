@@ -3,6 +3,11 @@
 	color:White; 
 	font-size:60px; 
 	font-family:Audiowide,cursive;
+	position:absolute; 
+	top:40%; 
+	left:40%; 
+	width:20%; 
+	height:20%
 	}
 	
 	.box
