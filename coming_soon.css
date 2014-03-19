@@ -1,35 +1,34 @@
+  
+   
     .p
 	{
-	color:White; 
-	font-size:2em; 
+	color:#ffffff; 
+	font-size:2.5em; 
 	font-family:Audiowide,cursive;
-	text-shadow: 1px 1px 2px #95a5a6;
-	position:absolute; 
-	top:40%; 
-	left:40%; 
-	width:30%; 
-	height:30%
+	text-shadow: 2px 2px 5px #2c3e50;
 	}
 	
 	.box
 	{
-	width:600px;
-    height:200px;
+	width:320px;
+    height:160px;
     text-align:center;
     border:1px solid #ffffff;
     padding:10px 40px; 
-    border-radius:3px;
-    -moz-border-radius:3px; /* Older Firefox */
-    background-color:#ffffff;
-    box-shadow: 1px 1px 2px #ffffff;
-    -moz-box-shadow: 1px 1px 2px #ffffff; /* Older Firefox */
-	opacity:0.1;
-	filter:alpha(opacity=0.1);
-	-moz-opacity:0.1;
-	-khtml-opacity: 0.1;
+    border-radius:5px;
+    -moz-border-radius:5px; /* Older Firefox */
+    box-shadow: 2px 2px 5px #2c3e50;
+    -moz-box-shadow: 1px 1px 1px #ffffff; /* Older Firefox */
 	position:absolute; 
 	top:35%; 
 	left:35%; 
-	width:25%; 
-	height:25%
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(41,128,185,0.35) 0%, rgba(41,128,185,0.35) 1%, rgba(255,255,255,0.15) 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(41,128,185,0.35)), color-stop(1%,rgba(41,128,185,0.35)), color-stop(100%,rgba(255,255,255,0.15))); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  rgba(41,128,185,0.35) 0%,rgba(41,128,185,0.35) 1%,rgba(255,255,255,0.15) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  rgba(41,128,185,0.35) 0%,rgba(41,128,185,0.35) 1%,rgba(255,255,255,0.15) 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  rgba(41,128,185,0.35) 0%,rgba(41,128,185,0.35) 1%,rgba(255,255,255,0.15) 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  rgba(41,128,185,0.35) 0%,rgba(41,128,185,0.35) 1%,rgba(255,255,255,0.15) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#592980b9', endColorstr='#26ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
 	}
